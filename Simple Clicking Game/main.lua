@@ -22,7 +22,7 @@ function love.draw()
 end
 
 function love.mousepressed(x, y, button, istouch, presses)
-    if button == 1 then
+    if button == 1 then -- left click
         local distance = distanceBetweenTwoPoint(x, y, target.x, target.y)
         if distance <= target.radius then
             score = score + 1
