@@ -29,7 +29,6 @@ function ball:checkCollide()
         local collisionPosition = middleBall - middlePaddle
 
         self.yVelocity = collisionPosition * 5
-
     elseif checkCollision(self, paddleRight) then
         self.xVelocity = -self.speed
 

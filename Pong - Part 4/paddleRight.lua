@@ -3,7 +3,7 @@ paddleRight = {}
 function paddleRight:load()
     self.width = 20
     self.height = 100
-    self.x = love.graphics.getWidth() - 20 - self.width
+    self.x = love.graphics.getWidth() - self.width - 20
     self.y = love.graphics.getHeight() / 2 - self.height / 2 -- vertical center
     self.speed = 500
 end
